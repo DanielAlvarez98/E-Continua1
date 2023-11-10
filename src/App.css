@@ -1,7 +1,18 @@
 .App {
   text-align: center;
 }
-
+.title{
+  color: black;
+}
+.container{
+  border-radius: 8px;
+  background: white;
+  padding: 10px 0;
+}
+.text_error{
+  color: red;
+  font-size:12px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
