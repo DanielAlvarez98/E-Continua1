@@ -12,6 +12,7 @@ function DatosUsuario ({updateStep}){
   const handleSubmit = (e) => {
     e.preventDefault();
     if (datos.valid && documento.valid && telefono.valid && direccion.valid) {
+      console.log(datos.value, documento.value ,telefono.value , direccion.value);
       updateStep(1);
     } else {
       alert("Datos Incorrectos");
